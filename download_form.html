@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <title>Download Datasheet</title>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-icons.css">
+        <style>
+            body {
+                margin-top: 2.0rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <h1 clss="card-title">Download Datasheet</h1>
+                    <p>Please enter your email address to download the datasheet.</p>
+
+                    <form onsubmit="submitForm(event)">
+                        <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Download Datasheet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/download_form.js"></script>
+    </body>
+</html>
